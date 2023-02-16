@@ -7,11 +7,11 @@ pkgver=76
 pkgrel=2
 pkgdesc="An extended calendar plasmoid with daily weather forecasts and events from Google Calendar. Also includes a timer and 24 hour forecast graph."
 arch=('any')
-url="https://github.com/kanocz/plasma-applet-eventcalendar"
+url="https://github.com/kanocz/plasma-applet-eventcalendar.git"
 license=('GPL')
 depends=('plasma-workspace' 'qt5-graphicaleffects' 'python-gobject' 'libcanberra')
 makedepends=('bash' 'gettext' 'go')
-source=("git+${url}.git")
+source=("git+${url}")
 md5sums=('SKIP')
 
 package() {
